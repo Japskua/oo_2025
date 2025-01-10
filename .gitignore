@@ -1,0 +1,100 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ project files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Maven specific files
+target/
+!*/src/main/**/target/
+!*/src/test/**/target/
+
+# IDEs and other editor-specific files
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Eclipse
+*.pydevproject
+.project
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# Mac OS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux specific files
+*~
+
+# Other unnecessary files
+*.class
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore generated sources and other transient files
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven Wrapper
+.mvn/
+!**/.mvn/wrapper/maven-wrapper.jar
+wrapper/
+mvnw
+mvnw.cmd
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Sensitive files
+credentials.json
+application.properties
+.env
