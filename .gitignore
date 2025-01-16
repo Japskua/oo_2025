@@ -98,3 +98,9 @@ mvnw.cmd
 credentials.json
 application.properties
 .env
+
+# Remove .dat files 
+*.dat
+
+# .classpath should not be added either
+*.classpath

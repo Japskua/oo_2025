@@ -9,6 +9,14 @@ class RocketShip {
 
     // Constructor to initialize the RocketShip
     public RocketShip(String name, int fuelLevel) {
+        // If no name is given, make this "Rocket"
+        if (name == null || name.isEmpty()) {
+            name = "Rocket";
+        }
+        if (fuelLevel < 0) {
+            System.out.println("Invalid fuel level. Setting fuel level to 0.");
+            fuelLevel = 0;
+        }
         this.name = name;
         this.fuelLevel = fuelLevel;
         this.isLaunched = false;
