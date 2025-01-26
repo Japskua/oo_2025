@@ -102,5 +102,8 @@ application.properties
 # Remove .dat files 
 *.dat
 
+# And .ser files
+*.ser
+
 # .classpath should not be added either
 *.classpath
